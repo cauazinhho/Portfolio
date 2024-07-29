@@ -1,59 +1,59 @@
 /* Reset de CSS - Limpa configurações padrão que atrapalham */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+body {
+    background-color: black;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
-.container-grid{
+header {
+    margin-top: 30px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+.container-grid {
     width: 80vw;
     max-width: 1400px;
 
-    margin: 0 auto; 
+    margin: 0 auto;
+}
 
+
+.container-grid {
     justify-content: space-between;
     display: flex;
     align-items: center;
 
-    margin-top: 30px;
 }
 
-body{
-    background-color: black;
-}
 
-header{
-    height: 165px;
-    background-color: red;
-}
-
-header img{
-    width: 120px;
-    height: 120px;
-}
-
-.menu{
-    color: white;
+.contato {
     font-size: 20px;
-
-    text-decoration: underline transparent;
-    text-decoration-thickness: 2px;
-    
-    transition: text-decoration 500ms ease;
-    
+    width: 20%;
+    background-color: yellow;
 }
 
-.contato{
-
-    
-
+nav a {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
+.menu {
+    font-size: 15px;
 
+}
 
 /* .contato a{
     font-size: 20px;
