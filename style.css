@@ -36,7 +36,7 @@ header img{
     height: 120px;
 }
 
-#menu a{
+.menu{
     color: white;
     font-size: 20px;
 
@@ -49,11 +49,13 @@ header img{
 
 .contato{
 
-    width: 15px;
+    
 
 }
 
-.contato a{
+
+
+/* .contato a{
     font-size: 20px;
     color: black;
     background-color: #F9F647;
@@ -64,4 +66,4 @@ header img{
     text-decoration-thickness: 2px;
     
     transition: text-decoration 500ms ease;
-}
+} */
