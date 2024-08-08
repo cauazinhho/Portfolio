@@ -5,8 +5,13 @@
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: "Inter";
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 body {
-    background-color: black;
+    background-color: gray;
 }
 
 html {
@@ -15,6 +20,7 @@ html {
 
 header {
     margin-top: 30px;
+    margin-bottom: 160px;
 }
 
 header img {
@@ -33,9 +39,6 @@ header img {
     align-items: center;
 }
 
-
-
-
 .menu {
     font-size: 75px;
 
@@ -44,7 +47,6 @@ header img {
 .menu a {
     color: white;
     font-size: 25px;
-    text-transform: uppercase;
 
     text-decoration: underline transparent;
     text-decoration-thickness: 2px;
@@ -62,7 +64,7 @@ header img {
     background-color: yellow;
 
     border-radius: 20px;
-    margin-top: 35px;
+    margin-top: 30px;
     margin-right: 70px;
 }
 
@@ -81,6 +83,69 @@ header img {
     transition: text-decoration 500ms ease;
 }
 
-.contato a:hover{
+.conteudo-texto{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-bottom: 100px;
+}
+
+.img img{ 
+    height: 300px;
+    width: 525px;
+}
+
+.textos{
+    margin-left: 60px;
+}
+
+
+.texto1{
+    color: white;
+    font-size: 25px;
+    font-family: "Inter";
+    
+    text-transform: uppercase;
+    
+    margin-bottom: 20px;
+}
+
+.texto2{
+    color: white;
+    font-size: 50px;
+
+    font-family: "Inter";
+}
+
+.tecnologias h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+    margin-bottom: 100px;
+
+    text-transform: uppercase;
+
+}
+
+.especialidades{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo{
+    color: yellow;
+    font-size: 30px;
+
+    margin-bottom: 20px;
+}
+
+.texto-tecnologia p{
+    font-size: 18px;
+    color: white;
+    
+}
+
+.linguagens{
     
 }
